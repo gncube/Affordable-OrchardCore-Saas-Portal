@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ Culture.Name }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% page_title Site.SiteName, position: "before", separator: " - " %}</title>
+    
+    {% resources type: "Meta" %}
+
+    <!-- Favicon -->
+    {% link type:"image/x-icon", rel:"shortcut icon", href:"~/DigitalAgencyTheme/favicon.ico" %}
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css2?family=Inter:400,500,600&display=swap' rel='stylesheet' type='text/css'>
+
+    <!-- Core theme CSS (includes Bootstrap) -->    
+    {% style name:"digitalagencytheme-css", version:"1" %}
+    {% script name:"digitalagencytheme-js", at:"Foot" %}
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="~/DigitalAgencyTheme/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/DigitalAgencyTheme/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css">
+
+    {% resources type: "HeadLink" %}
+    {% resources type: "Stylesheet" %}
+    {% resources type: "HeadScript" %}
+</head>
+<body dir="{{ Culture.Dir }}">
+    
+
+
+
+    {% render_body %}
+    
+    <footer>
+    {% render_section "Footer", required: false %}
+    </footer>
+    
+    {% script name:"jquery", use_cdn:"true", at:"Foot" %}
+    
+    {% resources type: "FootScript" %}
+</body>
+</html>

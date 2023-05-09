@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenantCMS", "src\Multi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenantCMS.UnitTests", "tests\MultiTenantCMS.UnitTests\MultiTenantCMS.UnitTests.csproj", "{F8C920CF-3710-4123-B6A7-74D5DA77AE78}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{627E54B0-AD14-46DB-AD17-3D66DD1EA9F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalAgencyTheme", "src\Themes\DigitalAgencyTheme\DigitalAgencyTheme.csproj", "{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlanetMinistriesTheme", "src\Themes\PlanetMinistriesTheme\PlanetMinistriesTheme.csproj", "{E263CD20-EBE0-4AFF-A7F1-035EC09F2971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +27,23 @@ Global
 		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E263CD20-EBE0-4AFF-A7F1-035EC09F2971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E263CD20-EBE0-4AFF-A7F1-035EC09F2971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E263CD20-EBE0-4AFF-A7F1-035EC09F2971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E263CD20-EBE0-4AFF-A7F1-035EC09F2971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183} = {627E54B0-AD14-46DB-AD17-3D66DD1EA9F6}
+		{E263CD20-EBE0-4AFF-A7F1-035EC09F2971} = {627E54B0-AD14-46DB-AD17-3D66DD1EA9F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4788A08-97FE-4D07-ADAF-8226BFAAA120}
 	EndGlobalSection
 EndGlobal
