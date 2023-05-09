@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -26,6 +26,11 @@
     <PackageReference Include="Etch.OrchardCore.Widgets" Version="1.9.2" />
     <PackageReference Include="OrchardCore.Application.Cms.Core.Targets" Version="1.6.0" />
     <PackageReference Include="OrchardCore.Logging.Serilog" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Themes\DigitalAgencyTheme\DigitalAgencyTheme.csproj" />
+    <ProjectReference Include="..\Themes\PlanetMinistriesTheme\PlanetMinistriesTheme.csproj" />
   </ItemGroup>
 
 </Project>
