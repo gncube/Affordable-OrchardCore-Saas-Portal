@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenantCMS", "src\MultiTenantCMS\MultiTenantCMS.csproj", "{91C9F811-6214-4448-851D-BB6FBF95774A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenantCMS.UnitTests", "tests\MultiTenantCMS.UnitTests\MultiTenantCMS.UnitTests.csproj", "{F8C920CF-3710-4123-B6A7-74D5DA77AE78}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Themes", "Themes", "{627E54B0-AD14-46DB-AD17-3D66DD1EA9F6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalAgencyTheme", "src\Themes\DigitalAgencyTheme\DigitalAgencyTheme.csproj", "{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}"
@@ -23,10 +21,6 @@ Global
 		{91C9F811-6214-4448-851D-BB6FBF95774A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C9F811-6214-4448-851D-BB6FBF95774A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C9F811-6214-4448-851D-BB6FBF95774A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8C920CF-3710-4123-B6A7-74D5DA77AE78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075433F5-FFDC-4D2F-BAC0-FF9CBBF4A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
