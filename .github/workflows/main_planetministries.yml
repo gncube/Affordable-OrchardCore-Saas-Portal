@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'planetministries'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1607C825041C4CA1A8CAE8B5C7B48A7C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2FFCFE20B728420AA79DBE132E1FA2FF }}
           package: .
