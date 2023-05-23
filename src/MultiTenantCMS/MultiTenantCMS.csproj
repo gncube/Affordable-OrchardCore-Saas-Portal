@@ -50,6 +50,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Themes\DigitalAgencyTheme\DigitalAgencyTheme.csproj" />
+    <ProjectReference Include="..\Themes\GSN.OrchardCore.Theme\GSN.OrchardCore.Theme.csproj" />
     <ProjectReference Include="..\Themes\PlanetMinistriesTheme\PlanetMinistriesTheme.csproj" />
   </ItemGroup>
 
